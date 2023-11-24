@@ -3,7 +3,8 @@
     Sub Main()
         'E10_Dvojrozmerne_zjisti_min_zobraz_indexy.Mainx()
         'E11_Dvojroz_pole_prohozene_diagonalne.Mainx()
-        E12_Zjištění_lokálních_maxim.Mainx()
+        'E12_Zjištění_lokálních_maxim.Mainx()
+        E13_Posloupnost_celych_opakovani_ktera_kolikrat.Mainx()
     End Sub
 
 End Module
