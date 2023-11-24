@@ -14,7 +14,7 @@
         MsgBox("Jsem E11")
         Dim pole_1(3, 3) As Byte
         Dim i As Byte, j As Byte, pocitadlo As Byte
-        Dim txt_vystup As String, txt_prohozene As Byte
+        Dim txt_vystup As String, txt_prohozene As String
 
         i = 0
         j = 0
@@ -35,7 +35,21 @@
             i += 1
         Loop
 
-        'Výpis obsahu pole
-        MsgBox(txt_vystup)
+        'Prohození indexů
+        i = 0
+        j = 0
+
+        Do While i < 4
+            Do While j < 4
+                txt_prohozene += Str(pole_1(j, i)) + Chr(9)
+                j += 1
+            Loop
+            j = 0
+            txt_prohozene += Chr(10)
+            i += 1
+        Loop
+
+        'Výpis obsahu pole po naplnění a zobrazení po prohození indexů
+        MsgBox(txt_vystup + Chr(10) + txt_prohozene)
     End Sub
 End Module
