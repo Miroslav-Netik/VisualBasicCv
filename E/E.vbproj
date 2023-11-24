@@ -72,6 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="E10_Dvojrozmerne_zjisti_min_zobraz_indexy.vb" />
+    <Compile Include="E11_Dvojroz_pole_prohozene_diagonalne.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
