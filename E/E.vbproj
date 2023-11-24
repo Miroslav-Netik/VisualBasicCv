@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{531605B6-AEDD-4F59-915C-19E20600EC1A}</ProjectGuid>
+    <ProjectGuid>{C2B1E69D-EB82-4F1A-862D-A0033B511C81}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>B.Module1</StartupObject>
-    <RootNamespace>B</RootNamespace>
-    <AssemblyName>B</AssemblyName>
+    <StartupObject>E.Module1</StartupObject>
+    <RootNamespace>E</RootNamespace>
+    <AssemblyName>E</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsFormsWithCustomSubMain</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -22,7 +22,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>B.xml</DocumentationFile>
+    <DocumentationFile>E.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>B.xml</DocumentationFile>
+    <DocumentationFile>E.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -71,11 +71,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="B15_SC_jak_je_venku.vb" />
-    <Compile Include="B12_pojd_si_zaplavat.vb" />
-    <Compile Include="B16_mini_kalkulacka.vb" />
-    <Compile Include="B17_prevod_men.vb" />
-    <Compile Include="B18_dnu_v_mesici.vb" />
+    <Compile Include="E10_Dvojrozmerne_zjisti_min_zobraz_indexy.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
