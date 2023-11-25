@@ -76,6 +76,7 @@
     <Compile Include="E12_Zjištění lokálních maxim.vb" />
     <Compile Include="E13_Posloupnost_celych_opakovani_ktera_kolikrat.vb" />
     <Compile Include="E14_bublinkove_trideni.vb" />
+    <Compile Include="E15_Slova_v_Morseovce.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
