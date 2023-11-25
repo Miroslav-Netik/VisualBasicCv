@@ -71,7 +71,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="F1_10_Bez_mezer.vb" />
+    <Compile Include="F1_09_Obrat_text.vb" />
     <Compile Include="F1_04_prestupny_rok_gregoriansky.vb" />
+    <Compile Include="F1_08_Pocet_dni_mesice.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

@@ -30,9 +30,9 @@
             Case 10
                 txt_mesic = "Říjen má 31 dnů."
             Case 11
-                txt_mesic = "Listopad má 31 dnů."
+                txt_mesic = "Listopad má 30 dnů."
             Case 12
-                txt_mesic = "Prosinec má 30 dnů."
+                txt_mesic = "Prosinec má 31 dnů."
             Case Else
                 txt_mesic = "Fakt nevím jaký je to měsíc..."
         End Select
