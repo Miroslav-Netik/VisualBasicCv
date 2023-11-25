@@ -75,6 +75,7 @@
     <Compile Include="E11_Dvojroz_pole_prohozene_diagonalne.vb" />
     <Compile Include="E12_Zjištění lokálních maxim.vb" />
     <Compile Include="E13_Posloupnost_celych_opakovani_ktera_kolikrat.vb" />
+    <Compile Include="E14_bublinkove_trideni.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

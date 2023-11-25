@@ -4,7 +4,9 @@
         'E10_Dvojrozmerne_zjisti_min_zobraz_indexy.Mainx()
         'E11_Dvojroz_pole_prohozene_diagonalne.Mainx()
         'E12_Zjištění_lokálních_maxim.Mainx()
-        E13_Posloupnost_celych_opakovani_ktera_kolikrat.Mainx()
+        'E13_Posloupnost_celych_opakovani_ktera_kolikrat.Mainx()
+        'E14_bublinkove_trideni.Mainx()
+        E14_bublinkove_trideni.Mainx_2()
     End Sub
 
 End Module
