@@ -7,7 +7,7 @@
         'E13_Posloupnost_celych_opakovani_ktera_kolikrat.Mainx()
         'E14_bublinkove_trideni.Mainx()
         'E14_bublinkove_trideni.Mainx_2()
-        E15_Slova_v_Morseovce.Mainx()
+        E15_Slova_v_Morseovce.Soucet()
     End Sub
 
 End Module

@@ -75,6 +75,9 @@
     <Compile Include="F1_09_Obrat_text.vb" />
     <Compile Include="F1_04_prestupny_rok_gregoriansky.vb" />
     <Compile Include="F1_08_Pocet_dni_mesice.vb" />
+    <Compile Include="F1_11_Vyskyty_retezce.vb" />
+    <Compile Include="F1_12_Cislo_den_v_roce.vb" />
+    <Compile Include="F1_13_Proc_davaji_spravny_soucet.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
