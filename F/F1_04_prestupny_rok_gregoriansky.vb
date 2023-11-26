@@ -27,7 +27,7 @@
         End If
     End Sub
     Sub S_prestupny_rok(rok As Integer, ByRef vystup As Boolean)
-        If rok Mod 4 = 0 And rok Mod 400 = 0 Then
+        If (rok Mod 4 = 0 And rok Mod 100 <> 0) Or rok Mod 400 = 0 Then
             vystup = True
         End If
     End Sub
