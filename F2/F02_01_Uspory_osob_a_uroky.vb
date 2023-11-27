@@ -6,7 +6,7 @@
         MsgBox("Jsem F2-01")
 
         Dim pole_uspor() As Single, pole_urokovane() As Single
-        Dim zadana_uspora As Single
+        Dim zadana_uspora As Single, zadany_urok As Single
         Dim i As Byte
         Dim i_2 As Byte
         Dim txt_vystup As String, txt_vystup_z_pole As String
@@ -15,6 +15,7 @@
         txt_vystup_z_pole = ""
         i = 0
         zadana_uspora = InputBox("Zadej uspořenou částku: ")
+        zadany_urok = InputBox("Zadej výši úroku: ")
 
         Do
             ReDim Preserve pole_uspor(i)
@@ -27,7 +28,7 @@
             txt_vystup += Str(pole_uspor(i)) + ", "
         Next
 
-        pole_urokovane = SpoctiUrok(pole_uspor, 10)
+        pole_urokovane = SpoctiUrok(pole_uspor, zadany_urok)
 
         For i_2 = 0 To UBound(pole_urokovane)
             txt_vystup_z_pole += Str(pole_urokovane(i_2)) + ", "
@@ -40,7 +41,7 @@
     Function SpoctiUrok(pole() As Single, urok As Single) As Single()
         Dim prepocet_uroku As Single
         Dim odkladaci As Single
-        Dim vnitrni_pole() As Single
+        Dim vnitrni_pole() As Single = {}
         Dim i As Byte
 
         prepocet_uroku = urok / 100
