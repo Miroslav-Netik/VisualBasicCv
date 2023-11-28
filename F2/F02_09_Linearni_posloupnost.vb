@@ -3,6 +3,7 @@
     'Pole se předá funkci, která sdělí (boolean), zda čísla tvoří lineární aritmetickou (tj. lineární) posloupnost
     '(rozdíl dvou sousedních je vždy tentýž). 
     Sub Mainx()
+        MsgBox("Jsem F02 - 09 - Lineární posloupnost")
         Dim pole_cisel() As Single = {}
         Dim zadane_cislo As Single
         Dim i As Integer = 0

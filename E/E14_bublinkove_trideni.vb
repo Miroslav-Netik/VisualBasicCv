@@ -22,10 +22,10 @@
 
         For i = velikost To 0 Step -1
             For i_2 = 0 To i - 1
-                If pole_cisel(i_2) > pole_cisel(i_2 + 1) Then
-                    porovnavaci_i = pole_cisel(i_2 + 1)
-                    pole_cisel(i_2 + 1) = pole_cisel(i_2)
-                    pole_cisel(i_2) = porovnavaci_i
+                If pole_cisel(i_2) > pole_cisel(i_2 + 1) Then   'Pokud "index 0" je větší než "index 1"
+                    porovnavaci_i = pole_cisel(i_2 + 1)         'Tak vlož "index 1" do porovnávací proměnné 
+                    pole_cisel(i_2 + 1) = pole_cisel(i_2)       'Pak vlož na hodnotu "indexu 1" hodnotu "indexu 0"
+                    pole_cisel(i_2) = porovnavaci_i             'Do hodnoty "indexu 0" vlož hodnotu "indexu 1"
                 End If
             Next
         Next
