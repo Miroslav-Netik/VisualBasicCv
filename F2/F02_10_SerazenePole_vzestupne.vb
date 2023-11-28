@@ -7,7 +7,7 @@
         MsgBox("Jsem F02 - 10 - SerazenePole vzestupne")
         Dim pole_cisel() As Long = {}
         Dim setridene_pole() As Long = {}
-        Dim pocet_opakovani As Integer = 1000 ' 0 včetně až zadaný počet
+        Dim pocet_opakovani As Integer = 10 ' 0 včetně až zadaný počet
         Dim max As Integer = 10
         Dim min As Integer = 1
         Dim i As Integer, j As Integer
