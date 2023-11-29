@@ -9,14 +9,18 @@
         MsgBox("Jsem F1-08")
 
         Dim zadane_cislo_mesice As Byte
-        Dim cislo_mesice As Integer
+        Dim cislo_mesice As Integer, cislo_mesice_subrutiny As Integer
+        Dim x As Integer
 
         zadane_cislo_mesice = InputBox("Zadej číslo měsíce (1 až 12)" + Chr(10) _
                                 + "a já ti napíšu počet jeho dní: ")
 
         cislo_mesice = PocetDniMesice(zadane_cislo_mesice)
 
-        MsgBox("Měsíc číslo" + Str(zadane_cislo_mesice) + " má" + Str(cislo_mesice) + " dní.")
+        MsgBox("Funkce - Měsíc číslo" + Str(zadane_cislo_mesice) + " má" + Str(cislo_mesice) + " dní.")
+
+        pocetDniMesice_s(zadane_cislo_mesice, x)
+        MsgBox("Subrutina - Měsíc číslo" + Str(zadane_cislo_mesice) + " má" + Str(x) + " dní.")
     End Sub
 
     Function PocetDniMesice(cislo As Byte) As Integer
@@ -48,6 +52,38 @@
             Case Else
                 Return -1
         End Select
-        Return 0
+
     End Function
+
+    Sub pocetDniMesice_s(cislo As Byte, ByRef vystup As Integer)
+        Select Case cislo
+            Case 1
+                vystup = 31
+            Case 2
+                vystup = 28
+            Case 3
+                vystup = 31
+            Case 4
+                vystup = 30
+            Case 5
+                vystup = 31
+            Case 6
+                vystup = 30
+            Case 7
+                vystup = 31
+            Case 8
+                vystup = 31
+            Case 9
+                vystup = 30
+            Case 10
+                vystup = 31
+            Case 11
+                vystup = 30
+            Case 12
+                vystup = 31
+            Case Else
+                vystup = -1
+        End Select
+
+    End Sub
 End Module

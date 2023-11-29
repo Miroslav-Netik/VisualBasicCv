@@ -7,14 +7,17 @@
         MsgBox("Jsem F1-09")
 
         Dim zadany_text As String, obraceny_text As String
-
+        Dim x As String
         zadany_text = InputBox("Zadej text a já ho celý otočím: ")
-        obraceny_text = ObratText(zadany_text)
+        obraceny_text = ObratText_F(zadany_text)
 
-        MsgBox(zadany_text + Chr(10) + obraceny_text)
+        MsgBox("Funkce: " + Chr(10) + zadany_text + Chr(10) + obraceny_text)
+
+        ObratText_S(zadany_text, x)
+        MsgBox("Subrutina: " + Chr(10) + zadany_text + Chr(10) + x)
     End Sub
 
-    Function ObratText(text As String) As String
+    Function ObratText_F(text As String) As String
         'Obrátí zadyný text
         Dim obraceny As String, vystup As String
         Dim i As Double
@@ -25,4 +28,17 @@
         Next
         Return vystup
     End Function
+
+    Sub ObratText_S(text As String, ByRef vyst As String)
+        'Obrátí zadyný text
+        Dim obraceny As String
+        Dim vystup As String = ""
+        Dim i As Double
+        obraceny = ""
+        For i = Len(text) To 1 Step -1
+            obraceny = Mid(text, i, 1)
+            vystup += obraceny
+        Next
+        vyst = vystup
+    End Sub
 End Module
