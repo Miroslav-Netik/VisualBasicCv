@@ -11,8 +11,8 @@
         'F02_08_Vzestupne_kolikaty_to_porusuje.Mainx()
         'F02_09_Linearni_posloupnost.Mainx()
         'F02_10_SerazenePole_vzestupne.Mainx()
-        F02_11_Caesarova_sifra.Mainx()
-        'F02_12_Pole_stringu.Mainx()
+        'F02_11_Caesarova_sifra.Mainx()
+        F02_12_Pole_stringu.Mainx()
     End Sub
 
 End Module
