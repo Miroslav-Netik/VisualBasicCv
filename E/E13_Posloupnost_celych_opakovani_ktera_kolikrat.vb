@@ -10,7 +10,7 @@ Module E13_Posloupnost_celych_opakovani_ktera_kolikrat
         Dim pole_cisel() As Long, pole_opakovanych() As Long
         Dim i As Byte, j As Byte, m As Byte, velikost As Byte
         Dim nahodne As Long, rozsah As Long, k As Long
-        Dim opakovane_cislo As Long, pocitadlo As Long, max As Long, min As Long
+        Dim pocitadlo As Long, max As Long, min As Long
         Dim txt_generovana_cisla As String, txt_opakovana_cisla As String, txt_min_a_max As String
 
         txt_generovana_cisla = ""

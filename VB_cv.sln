@@ -19,6 +19,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Pokusy", "Pokusy\Pokusy.vbp
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "F2", "F2\F2.vbproj", "{CD122C36-78E0-409F-8C10-4D14A8B599A1}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Zkouska_Tezsi", "Zkouska_Tezsi\Zkouska_Tezsi.vbproj", "{26E2D689-BCD4-429B-829F-D03EF84F4026}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{CD122C36-78E0-409F-8C10-4D14A8B599A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD122C36-78E0-409F-8C10-4D14A8B599A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD122C36-78E0-409F-8C10-4D14A8B599A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26E2D689-BCD4-429B-829F-D03EF84F4026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E2D689-BCD4-429B-829F-D03EF84F4026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E2D689-BCD4-429B-829F-D03EF84F4026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E2D689-BCD4-429B-829F-D03EF84F4026}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
